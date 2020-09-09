@@ -1,0 +1,149 @@
+section {
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.container-page-white {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: var(--secunde-color)
+}
+
+.container-page-purple {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: var(--primary-color)
+}
+
+.text-principal {
+    font-size: 260%;
+    color: var(--primary-color);
+}
+
+.text-secunde {
+    font-size: 260%;
+    color: var(--secunde-color);
+}
+
+.text-tercent {
+    margin-top: 30px;
+    font-size: 200%;
+    color: var(--secunde-color-text)
+}
+
+.imagem-content {
+    margin: 50px;
+    width: 450px;
+    height: 400px;
+    background: url(../img/studante.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-page-white .text-content {
+    margin: 50px;
+    width: 40%;
+    height: 400px;
+    display: block;
+    left: 50%;
+}
+
+.conteine-ajust {
+    
+}
+
+.conteine-ajust .conteudo {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.text-opinion {
+    height: 50%;
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    
+    justify-items: center;
+}
+
+.submit-opinion input{
+    font-family: Saira;
+    font-size: 170%;
+    height: 13%;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    color: var(--primary-color);
+    background-color: var(--secunde-color);
+    
+}
+
+.submit-opinion input:hover{
+    transition: 0.3s;
+    background-color: var(--secunde-color-dark);
+}
+
+.conteudo-nossos-cursos {
+    display: inline-block;
+    width: 100%;
+    height: 
+}
+
+.conteudo{
+    /*height: 50%;*/
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    align-content: center;
+}
+
+.conteudo h2 {
+    font-family: Saira;
+    font-size: 170%;
+    height: 13%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    color: var(--primary-color);
+    background-color: var(--secunde-color);
+}
+
+.nossos-cursos {
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    border: 1px solid var(--secunde-color-dark);
+    left: -50%;
+    display: inline-block;
+    justify-content: flex-start;
+    color: var(--primary-color);
+    /*background-color: var(--secunde-color);*/
+}
+
+.nossos-cursos .image-nossos-cursos {
+    width: 200px;
+    height: 100px;
+    background-color: var(--secunde-color-dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+

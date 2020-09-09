@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #8112B5;
+    --primary-color-dark: #4F0E6E;
+    --secunde-color: #ffffff;
+    --secunde-color-dark: #cccccc;
+    --secunde-color-text: #0A96C2;
+    font-family: Saira;
+}
+
+@font-face {
+    font-family: Saira;
+    src: url(../font/Saira/Saira-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    background-color: var(--secunde-color);
+    position: fixed;
+    top: 0;
+}
+
+header img {
+    height: 80%;
+    margin: 7px 0 0 50px;
+}
+
+header ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li a {
+    font-size: 11pt;
+    display: block;
+    text-align: center;
+    padding: 29px 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+header li a:hover:not(.active-item) {
+    transition: 0.7s;
+    background-color: var(--primary-color);
+    color: var(--secunde-color);
+}
+
+.active-item{
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    transition: 1s;
+    background: var(--primary-color-dark); 
+}
